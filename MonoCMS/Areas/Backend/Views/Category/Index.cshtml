@@ -1,0 +1,7 @@
+@model IList<MonoCMS.Models.Category>
+<ul>
+
+@foreach(var cat in Model){
+	<li>@cat.CategoryName</li>
+}
+</ul>
