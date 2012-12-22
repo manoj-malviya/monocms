@@ -1,7 +1,9 @@
 @model IList<MonoCMS.Models.Category>
-<ul>
 
-@foreach(var cat in Model){
-	<li>@cat.CategoryName</li>
+@{
+
+var grid = new WebGrid(Model, columnNames:new[]{"CategoryName","DateAdd"});
+
+@grid.GetHtml();
+
 }
-</ul>

@@ -1,11 +1,31 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="RazorOnMono\Areas\Backend\Views\Category\Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MonoCMS\Areas\Backend\Views\Category\Index.cshtml">
     <Files>
-      <File FileName="RazorOnMono\Controllers\HomeController.cs" Line="8" Column="18" />
-      <File FileName="RazorOnMono\Areas\Backend\Views\_ViewStar.cshtml" Line="2" Column="37" />
-      <File FileName="RazorOnMono\Areas\Backend\Views\Category\Index.cshtml" Line="6" Column="1" />
+      <File FileName="MonoCMS\Areas\Backend\Views\Category\Index.cshtml" Line="5" Column="62" />
+      <File FileName="MonoCMS\Areas\Backend\Controllers\CategoryController.cs" Line="14" Column="42" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="MonoCMS" expanded="True">
+            <Node name="Areas" expanded="True">
+              <Node name="Backend" expanded="True">
+                <Node name="Controllers" expanded="True" />
+                <Node name="Views" expanded="True">
+                  <Node name="Category" expanded="True">
+                    <Node name="Index.cshtml" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

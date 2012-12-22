@@ -11,7 +11,7 @@ namespace MonoCMS.Areas.Backend.Controllers
 {
 	public class CategoryController : Controller
 	{
-		public ViewResult Index ()
+		public ActionResult Index (int page = 1)
 		{
 			var db = new PetaPoco.Database("MonoCMS");
 			var categories = db.Fetch<Category>("SELECT category_name FROM category");

@@ -7,8 +7,17 @@
 </head>
 
 <body>
-	@Html.Partial("_NavBar")
-    @RenderBody()
+<div class="container-fluid">
+  <div class="row-fluid">
+   @Html.Partial("_NavBar")
+    <div class="span2">
+      <!--Sidebar content-->
+    </div>
+    <div class="span10">
+       @RenderBody()
+    </div>
+  </div>
+</div>
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="@Url.Content("~/Content/bootstrap/js/bootstrap.js")" type="text/javascript"></script>
 </body>
