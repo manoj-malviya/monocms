@@ -74,6 +74,39 @@
     <Reference Include="RouteDebug">
       <HintPath>..\libs\RouteDebug.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="WebActivator">
+      <HintPath>..\packages\WebActivator.1.5.3\lib\net40\WebActivator.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Text">
+      <HintPath>..\packages\ServiceStack.Text.3.9.33\lib\net35\ServiceStack.Text.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Common">
+      <HintPath>..\packages\ServiceStack.Common.3.9.33\lib\net35\ServiceStack.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Interfaces">
+      <HintPath>..\packages\ServiceStack.Common.3.9.33\lib\net35\ServiceStack.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Redis">
+      <HintPath>..\packages\ServiceStack.Redis.3.9.33\lib\net35\ServiceStack.Redis.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.OrmLite.SqlServer">
+      <HintPath>..\packages\ServiceStack.OrmLite.SqlServer.3.9.33\lib\ServiceStack.OrmLite.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.OrmLite">
+      <HintPath>..\packages\ServiceStack.OrmLite.SqlServer.3.9.33\lib\ServiceStack.OrmLite.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.ServiceInterface">
+      <HintPath>..\packages\ServiceStack.3.9.33\lib\net35\ServiceStack.ServiceInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack">
+      <HintPath>..\packages\ServiceStack.3.9.33\lib\net35\ServiceStack.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.FluentValidation.Mvc3">
+      <HintPath>..\packages\ServiceStack.Mvc.3.9.33\lib\net40\ServiceStack.FluentValidation.Mvc3.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\HomeController.cs" />
@@ -86,6 +119,8 @@
     <Compile Include="Areas\Backend\BackendAreaRegistration.cs" />
     <Compile Include="Areas\Backend\Controllers\CategoryController.cs" />
     <Compile Include="Areas\Backend\Controllers\HomeController.cs" />
+    <Compile Include="App_Start\AppHost.cs" />
+    <Compile Include="App_Start\WebServiceExamples.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
@@ -128,6 +163,10 @@
     <Content Include="Content\bootstrap\js\bootstrap.min.js" />
     <Content Include="Areas\Backend\Views\Web.config" />
     <Content Include="Areas\Backend\Views\_ViewStart.cshtml" />
+    <Content Include="packages.config" />
+    <Content Include="default.htm" />
+    <Content Include="jqunback-1.51.min.js" />
+    <Content Include="Content\js\ss-validation.js" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -190,5 +229,6 @@
     <None Include="Areas\Backend\Views\Category\Index.cshtml" />
     <None Include="Areas\Backend\Views\Home\Index.cshtml" />
     <None Include="Areas\Backend\Views\Home\Test.cshtml" />
+    <None Include="README.txt" />
   </ItemGroup>
 </Project>
